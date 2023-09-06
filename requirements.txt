@@ -1,0 +1,14 @@
+Flask==1.0.3
+pandas==1.1.4
+tensorboard==2.3.0
+sklearn
+numpy==1.19.4
+opencv-python==4.4.0.46
+networkx==2.5
+Pillow==8.0.1
+matplotlib==3.3.2
+python-dotenv==0.15.0
+pyyaml==5.3.1
+torch
+torchvision
+dgl

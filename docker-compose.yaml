@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  graph:
+    build: .
+    ports: "5000:5001"
+    environment:
+      - MODELS_FOLDER=/gcn_models
+    volumes:
+      - "/graph/gcn_models:/gcn_models"
+      - "/graph/gcn_images:/gcn_images"

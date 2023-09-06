@@ -1,0 +1,17 @@
+connect_words: false
+node_classification:
+  name: "gcn"
+  learning_rate: 0.001
+  epochs: 500
+  number_of_layers: 4
+  num_heads: 8 # number of hidden attention heads
+  num_out_heads: 1 # number of output attention heads
+  num_hidden: 8 # number of hidden units
+  feat_drop: 0.0 # input feature dropout
+  attn_drop: 0.1 # attention dropout
+  negative_slope: 0.2 # the negative slope of leaky relu
+  residual: false # use residual connection
+
+  boc_feature: "boc_full"
+  # which node features to include in dataset
+  features: ["..."]
